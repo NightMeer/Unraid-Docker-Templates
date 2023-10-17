@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/146558-support-nightmeer-docker-templates/</Support>
   <Project/>
   <Overview>ApachePHP8 Docker</Overview>
   <Category>Network:Web Status:Stable</Category>
