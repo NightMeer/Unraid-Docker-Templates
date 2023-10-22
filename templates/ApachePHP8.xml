@@ -22,5 +22,6 @@
   <DonateLink/>
   <Requires/>
   <Config Name="Config" Target="/config" Default="/mnt/user/appdata/apachephp8/" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/apachephp8/</Config>
+  <Config Name="Config" Target="/var/www/html" Default="/mnt/user/appdata/apachephp8/html" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/apachephp8/html</Config>
   <Config Name="Port" Target="" Default="80" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">80</Config>
 </Container>
