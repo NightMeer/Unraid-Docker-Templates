@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>ApachePHP8-Docker</Name>
   <Repository>ghcr.io/nightmeer/apachephp8:latest</Repository>
-  <Registry/>
+  <Registry>https://ghcr.io/nightmeer/apachephp8</Registry>
   <Network>br0</Network>
   <MyIP/>
   <Shell>sh</Shell>
@@ -11,17 +11,17 @@
   <Project/>
   <Overview>ApachePHP8 Docker</Overview>
   <Category>Network:Web Status:Stable</Category>
-  <WebUI>http://[IP]:[PORT:80]/</WebUI>
-  <TemplateURL/>
-  <Icon/>
+  <WebUI>http://[IP]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/NightMeer/Unraid-Docker-Templates/master/templates/ApachePHP8.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/NightMeer/Unraid-Docker-Templates/main/images/apache-php.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1697532637</DateInstalled>
+  <DateInstalled>1698527621</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Config" Target="/config" Default="/mnt/user/appdata/apachephp8/" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/apachephp8/</Config>
+  <Config Name="Config" Target="/config" Default="/mnt/user/appdata/apachephp8" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/apachephp8</Config>
   <Config Name="Config" Target="/var/www/html" Default="/mnt/user/appdata/apachephp8/html" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/apachephp8/html</Config>
-  <Config Name="Port" Target="" Default="80" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">80</Config>
+  <Config Name="Port" Target="80" Default="80" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">80</Config>
 </Container>
