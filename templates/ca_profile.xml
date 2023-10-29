@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+    <Icon>https://raw.githubusercontent.com/NightMeer/Unraid-Docker-Templates/main/images/avatar.png</Icon>
+    <Profile>
+        Creating Containers and Plugins.
+    </Profile>
+    <DonateLink>https://paypal.me/nightmeer</DonateLink>
+    <DonateText>If you like my work please consider Donating.</DonateText>
+</Maintainer>
