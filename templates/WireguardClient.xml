@@ -13,7 +13,9 @@
 &#xD;
 place wg0.conf in Config Folder&#xD;
 &#xD;
-wget -O /mnt/user/appdata/wireguardclient/wg0.conf https://raw.githubusercontent.com/NightMeer/WireguardClient-Docker/main/wg0.conf</Overview>
+wget -O /mnt/user/appdata/wireguardclient/wg0.conf https://raw.githubusercontent.com/NightMeer/WireguardClient-Docker/main/wg0.conf&#xD;
+&#xD;
+The main Reason for this Docker is to bypass CGNat/DS-Lite see more: https://github.com/NightMeer/Bypass-CGNAT</Overview>
   <Category>Network:VPN Network:Other Status:Stable</Category>
   <WebUI/>
   <TemplateURL/>
